@@ -4,36 +4,33 @@
   }
 }
 
+/* ! ------------------- TABLET -------------------- */
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
 
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/people-office-tab.jpg);
-      background-repeat: no-repeat;
-      padding: 16px 0;
-      max-width: 768px;
-    }
+  .new-list {
+    gap: 72px 24px;
+  }
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .hero {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-          ),
-          url(../images/people-office-tab-2x.jpg);
-      }
-    }
+  .new-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .new-item .head {
+    text-align: start;
   }
 }
 
+/* ! ------------------- DESKTOP -------------------- */
+
 @media screen and (min-width: 1158px) {
+  .hero {
+    max-width: 1440px;
+  }
+
   .container {
     max-width: 1158px;
   }
@@ -62,5 +59,11 @@
 
   .new-item {
     width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .new-item .head {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
   }
 }
