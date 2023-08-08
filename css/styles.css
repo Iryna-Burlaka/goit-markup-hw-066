@@ -92,7 +92,7 @@ img {
 }
 
 .mob-menu-open {
-  display: ;
+  display: flex;
   border: 0;
   padding: 0;
   background-color: #ffffff;
