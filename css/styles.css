@@ -37,7 +37,6 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
-  outline: 2px solid darkred;
 }
 
 .current:hover {
@@ -849,14 +848,13 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 392px;
-  height: 584px;
+  width: 288px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 16px 16px 24px;
+  padding: 72px 16px 24px 16px;
 }
 
 .modal-close-btn {
@@ -900,7 +898,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 360px;
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
@@ -1023,7 +1020,7 @@ img {
   height: 56px;
   padding: 16px 32px;
   border-radius: 4px;
-  margin: 24px 112px;
+  margin: 24px auto 0;
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
