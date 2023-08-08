@@ -23,12 +23,6 @@
     display: none;
   }
 
-  /* .header .container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-  } */
-
   .header .container {
     padding-top: 0;
     padding-bottom: 0;
@@ -37,11 +31,6 @@
   .header-naviganion {
     display: flex;
     align-items: center;
-    /* margin-right: 121px; */
-  }
-
-  .header-logo {
-    /* margin-right: 120px; */
   }
 
   .menu-list {
@@ -85,7 +74,6 @@
   .address {
     display: block;
     font-style: normal;
-    /* padding: 24px 0; */
   }
 
   .address-list {
@@ -113,7 +101,6 @@
   }
 
   .hero-head {
-    color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
@@ -136,6 +123,10 @@
     text-align: start;
   }
 
+  .new-item .text {
+    font-weight: 400;
+  }
+
   .team-list {
     gap: 64px 24px;
     width: calc((100 - 24px) / 2);
@@ -146,16 +137,11 @@
   }
 
   .customers-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 72px 24px;
   }
 
   .customers-item {
     width: calc((100% - 24px * 2) / 3);
-    height: 88px;
   }
 
   .footer-main-container {
@@ -172,7 +158,6 @@
 
   .container-footer-icon {
     align-items: start;
-    /* margin: 0; */
   }
 
   .container-footer-sub {
@@ -191,6 +176,16 @@
   .sub-email {
     margin: 0 auto;
     width: 264px;
+  }
+
+  .modal-body {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
+
+  .modal-btn {
+    margin: 24px 120px;
   }
 }
 
@@ -429,9 +424,5 @@
   .sub-email {
     margin: 0 auto;
     width: 264px;
-  }
-
-  .modal-body {
-    width: 408px;
   }
 }
