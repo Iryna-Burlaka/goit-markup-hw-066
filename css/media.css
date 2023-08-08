@@ -123,10 +123,6 @@
     text-align: start;
   }
 
-  .new-item .text {
-    font-weight: 400;
-  }
-
   .team-list {
     gap: 64px 24px;
     width: calc((100 - 24px) / 2);
@@ -327,6 +323,10 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+  }
+
+  .new-item .text {
+    font-weight: 400;
   }
 
   .doing {
