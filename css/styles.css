@@ -178,6 +178,9 @@ img {
   color: #404bbf;
 }
 
+.mob-menu-link.current {
+  color: #404bbf;
+}
 .mob-address-list {
   display: flex;
   flex-direction: column;
